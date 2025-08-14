@@ -1,7 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+font-family: Inter;
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+    
+}
 
 
 
-.t1 {
-    font-weight: 700;
+.titulo {
+font-size: 76px;
+font-family: inter;
+font-weight: 400;
+margin-bottom: 16px;
+color: white;
+
 
 }
+
+.capa {
+    
+    display: flex;
+}
+
+.foto-robo{
+    width: 50vw;
+    height: 100vh;
+    background-position:0 -100px ;
+    background-size: cover;
+
+
+}
+
+.titulo-2{
+    font-size: 41px;
+    font-weight: 600;
+    color: white;
+    
+
+}
+
+.login{
+    border-radius: 10px;
+    margin-bottom: 16px;
+    width: 377px;
+    height: 56px;
+    background-color: #282828;
+    border: 1px solid black;
+    padding: 16px;
+    
+    
+}
+
+.btm{
+    color: black;
+    background-color: #C6C7F8;
+    width: 377px;
+    height: 56px;
+    border-radius: 10px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    
+}   
+
+.bloco-acesso{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    width: 50vw;
+    height: 100vh;
+    
+
+}
+
+
+
+
+
