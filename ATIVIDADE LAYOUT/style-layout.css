@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container {
+    display: flexbox;
+    
+
+}
+
+.cabecalho {
+    background-color: #3750B3;
+    width: 1920px;
+    height: 71px;
+    color: white;
+    font-size: 12px;
+   
+}
+.lista {
+    justify-items: end;
+    flex-direction: row;
+}
+
+.imagem {
+    width: 1680px;
+    height: 427px;
+
+}
+
+.container-2 {
+
+    margin: 120px;
+    font-weight: 400;
+    font-size: 64px;
+}
