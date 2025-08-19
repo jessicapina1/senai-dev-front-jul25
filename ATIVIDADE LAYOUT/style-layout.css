@@ -1,41 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-
+    font-family: inter;
 }
 
 
 .container {
-    display: flexbox;
+    
+    padding-left: 120px;
+    padding-right: 120px;
     
 
 }
 
 .cabecalho {
     background-color: #3750B3;
-    width: 1920px;
+    width: 100%;
     height: 71px;
-    color: white;
-    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
    
 }
-.lista {
-    justify-items: end;
-    flex-direction: row;
+
+.logo {
+    color: white;
+    text-decoration: none;
 }
 
-.imagem {
-    width: 1680px;
+.menu a {
+
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+
+}
+
+.fundo {
+    background-image: url("./assets/img/ragnorok.jpg");
+    width: 100%;
     height: 427px;
-
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
 }
 
-.container-2 {
 
-    margin: 120px;
+.titulo {
+    margin-top: 80px;
     font-weight: 400;
     font-size: 64px;
+}
+
+.descricao {
+    font-size: 32px;
+
 }
